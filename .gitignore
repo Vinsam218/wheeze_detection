@@ -1,0 +1,25 @@
+# Python environments and cache
+.venv/
+venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# Datasets and audio
+data/
+datasets/
+raw/
+processed/
+augmented/
+*.wav
+*.flac
+*.mp3
+*.zip
+
+# Generated model artifacts and experiment outputs
+artifacts/*
+experiments/*
+
+# Secrets
+.env
+.env.*
+!.env.examample
